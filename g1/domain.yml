@@ -1,0 +1,167 @@
+version: "2.0"
+# control_group1
+
+actions:
+- utter_please_rephrase
+- utter_ask_short_feedback
+- utter_ask_ratings
+- utter_greet
+- utter_thanks
+- utter_carry_on
+- utter_iamabot
+- utter_sorry
+- utter_awesome
+- utter_influence_done
+- utter_did_that_help
+- utter_school_pdf
+- utter_answers_satisfaction
+- utter_interaction
+- utter_preference
+- utter_future_use
+- utter_overall_rating
+- utter_prefinish_1
+- utter_prefinish_2
+- utter_out_of_scope
+- action_save_conversation
+- utter_goodbye
+  
+
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- school_info
+- bot_challenge
+- school_questions
+- helpfulness_rating
+- satisfy_rating
+- interaction_rating
+- preference_rating
+- future_use_rating
+- overall_rating
+- out_of_scope
+- short_feedback_rating
+
+responses:
+  utter_ask_short_feedback:
+  - text: "Sorry to hear that. Please just give us an overall feedback. What’s your overall satisfaction of using the chatbot to find the school information?"
+    buttons:
+    - title: "1: dislike"
+      payload: short_1
+    - title: "2: slightly dislike"
+      payload: short_2
+    - title: "3: neutral"
+      payload: short_3
+    - title: "4: slightly like"
+      payload: short_4
+    - title: "5: like it"
+      payload: short_5
+  utter_please_rephrase:
+  - text: "I'm sorry, I didn't quite understand that. Could you rephrase or ask another question?"
+  utter_ask_ratings:
+  - text: "Could you give us some feedbacks regarding your experience? There will be 5 questions."
+    buttons:
+    - title: "Yes"
+      payload: "Yes"
+    - title: "No"
+      payload: "No"
+  utter_out_of_scope:
+  - text: "Sorry, I can't respond to this kind of question as I am a chatbot working for the school info request. Please ask a relevant question. "
+  utter_greet:
+  - text: "Hey! Welcome to the website of University of South Carolina, Columbia. I can help you with some basic questions regarding application, locations, student living, school services, etc. How can I help you?"
+  utter_iamabot:
+  - text: "I am a bot, working for University of South Carolina, Columbia. I can help yo with some basic questions regarding application, locations, student living, school services, etc."
+  utter_did_that_help:
+  - text: "Was this helpful?"
+    buttons:
+    - title: "Yes"
+      payload: helpfulness_1
+    - title: "Partially Helped"
+      payload: helpfulness_2
+    - title: "No"
+      payload: helpfulness_3
+  utter_carry_on:
+  - text: "Thanks, carry on!"
+
+  utter_prefinish_1:
+  - text: "Thanks, that's all for the feedbacks. We will bring these to the team. Have a great day!【conversation ended】"
+  utter_prefinish_2:
+  - text: "Thanks for the time. Have a great day!【conversation ended】"
+  utter_goodbye:
+  - text: "Bye"
+  utter_answers_satisfaction:
+  - text: "Are you satisfied with the answers to your questions?"
+    buttons:
+    - title: "1: dislike"
+      payload: satisfy_1
+    - title: "2: slightly dislike"
+      payload: satisfy_2
+    - title: "3: neutral"
+      payload: satisfy_3
+    - title: "4: slightly like"
+      payload: satisfy_4
+    - title: "5: like it"
+      payload: satisfy_5
+  utter_interaction:
+  - text: "Are you satisfied with how the chatbot interacted with you?" #interaction
+    buttons:
+    - title: "1: dislike"
+      payload: interaction_1
+    - title: "2: slightly dislike"
+      payload: interaction_2
+    - title: "3: neutral"
+      payload: interaction_3
+    - title: "4: slightly like"
+      payload: interaction_4
+    - title: "5: like it"
+      payload: interaction_5
+  utter_preference:
+  - text: "To what extent will you prefer the chatbot over Google search for the answers?" # preference
+    buttons:
+    - title: "1: never prefer"
+      payload: preference_1
+    - title: "2: sometimes not prefer"
+      payload: preference_2
+    - title: "3: no difference"
+      payload: preference_3
+    - title: "4: sometimes prefer"
+      payload: preference_4
+    - title: "5: always prefer"
+      payload: preference_5
+  utter_future_use:
+  - text: "Will you choose the chatbot to find UofSC info for the future use?" # future_use
+    buttons:
+    - title: "1: not at all"
+      payload: future_use_1
+    - title: "2: will not use sometimes"
+      payload: future_use_2
+    - title: "3:don’t know"
+      payload: future_use_3
+    - title: "4: will mostly use"
+      payload: future_use_4
+    - title: "5: will always prefer"
+      payload: future_use_5
+  utter_overall_rating:
+  - text: "What’s your overall satisfaction of using the chatbot to find the school information?"  # general_satisfaction
+    buttons:
+    - title: "1: dislike"
+      payload: overall_1
+    - title: "2: slightly dislike"
+      payload: overall_2
+    - title: "3: neutral"
+      payload: overall_3
+    - title: "4: slightly like"
+      payload: overall_4
+    - title: "5: like it"
+      payload: overall_5
+  utter_thanks:
+  - text: "Thanks"
+  utter_sorry:
+  - text: "Sorry to hear this"
+  utter_school_pdf:
+  - text: "Please refer to the FAQ here for answer -  https://drive.google.com/file/d/1bjpTNPy11cH-OCCeXjdwwAhSilXm7Aj4/view?usp=sharing"
+    
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
