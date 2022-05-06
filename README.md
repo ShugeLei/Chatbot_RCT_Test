@@ -1,8 +1,8 @@
 ## Chatbot_USC
 
 ## Steps to Run the chatbot on the Casy server:- 
-1. connect to the Casy Server: \n
-   1.1 if on the school internet, use the command line: \n
+1. connect to the Casy Server: 
+   1.1 if on the school internet, use the command line: 
          ssh -p222 student-user@casy.cse.sc.edu 
          PWD: passw0rd!
          then go to the directory: demos/chatbot_univ/
