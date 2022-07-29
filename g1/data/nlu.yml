@@ -1,0 +1,895 @@
+version: "2.0"
+#Control: group1
+
+nlu:
+- intent: answer_current_student
+  examples: |
+    - answer_current_student_1
+    - answer_current_student_2
+
+- intent: answer_gender
+  examples: |
+    - gender_1
+    - gender_2
+    - gender_3
+- intent: answer_age
+  examples: |
+    - age_1
+    - age_2
+    - age_3
+- intent: answer_marriage
+  examples: |
+    - marriage_1
+    - marriage_2
+    - marriage_3
+- intent: answer_education
+  examples: |
+    - education_1
+    - education_2
+    - education_3
+    - education_4
+- intent: short_feedback_rating
+  examples: |
+    - short_1
+    - short_2
+    - short_3
+    - short_4
+    - short_5
+
+- intent: out_of_scope
+  examples: |
+    - I want to order food
+    - What is 2 + 2?
+    - Who's the US President?
+    - How's the weather?
+    - What's the name of your puppy?
+    - where is the desk?
+    - I am asking out of scope question
+    - what is 4 +3 =?
+    - can you tell me do you love me?
+    - After registration I see that I have an available balance of 0.00000000. What does this balance represent?
+    - Are you ready?
+    - But you're an english site :(
+    - Can I ask you questions first?
+    - Can I die
+    - Can I get a hamburger?
+    - Can YouTube talk?
+    - Can you call me back ?
+    - Can you give me your datacenter's password
+    - Can you give me your datacenter's password?
+    - Can you make sandwiches?
+    - Can you please send me an uber
+    - Do I have to accept?
+    - Do you know Kevin Pelton
+    - Find nearest pizzahut
+    - Have we met before?
+    - HomeBase is advertised as a community. Is there a way to interact with other members of the community?
+    - How long does it take to set up a Rasa bot?
+    - I already told you! I'm a shitmuncher
+    - I am User
+    - I am an opioid addic
+    - I am an opioid addict
+    - I am hungry
+    - I am trying to build one, and did some research before, but I have not do hand-on work yet
+    - I can barely see this white text on light gray background ...
+    - I changed my mind
+    - I have installed it
+    - I ned a GP in 94301
+    - I need a GP in 94301
+    - I need a girl friend!
+    - I need to eat cake
+    - I wan to buy a plane
+    - I wanna marry you
+    - I want a new laptop
+    - I want book a hotel
+    - I want french cuisine
+    - I want pizza
+    - I want to die
+    - I want to order pizza
+    - I want to use pipe
+    - I will check
+    - I'm a shitmuncher
+    - Is Rasa really smart?
+    - Is this Goal-Oriented Chatbot?
+    - Is today saturday?
+    - Mail me the guide
+    - Make me a sandwich
+    - NLW
+    - Nice name
+    - Now?
+    - Pizza bot
+    - Recharge
+    - SEL ME SOMETHING
+    - The Try it out is not working
+    - The weather is good
+    - Today
+    - Try it out broken
+    - What day is it today?
+    - What did you eat yesterday?
+    - What do you prefer?
+    - What is todays date
+    - What is your hobbies?
+    - What makes you better than a human?
+    - What's 1 + 1?
+    - What's do YouTube do
+    - What's your backend system?
+    - Where am I right now?
+    - Where am I?
+    - Who ?
+    - Who are your customers
+    - Why don’t you answer?
+    - Why is my TRUST score set to 50 after I completed the registration process?
+    - Won't you ask me how I am?
+    - You'r blue.
+    - [Kristin](name), I want to marry you
+    - [german](language)?
+    - a tamed mouse will arrive at your doorstep in the next couple of days
+    - aRE YOU SINGLE
+    - again?
+    - alexa, order 5 tons of natrium chloride
+    - and make chicken noises into the phone
+    - are the newsletter worth the subscription?
+    - are u facebook
+    - are u, facebook?
+    - are you single?
+    - are you dev?
+    - are you russian?
+    - are you sick
+    - are you vegan
+    - better than you
+    - book a ticket
+    - but I just told you that :(
+    - but if rasa is open source why do you have a sales team
+    - buy one please
+    - buy groceries
+    - call me father
+    - can we keep chatting?
+    - can you book dinner
+    - can you cheer me up
+    - can you cook dinner
+    - can you give me a cup of coffee
+    - can you help me with the docs?
+    - can you help me with your docs
+    - can you help me with your docs?
+    - can you learn from our conversation?
+    - can you speak about politic ?
+    - can you understand ?
+    - cannot see
+    - chgfhgh
+    - chinese ok?
+    - colder
+    - common, just try
+    - connect to alexa
+    - cr
+    - custom service
+    - did i break you
+    - dinner
+    - do you believe in god?
+    - do you have a phone number?
+    - do you have your photo?
+    - do you know me
+    - do you know ras
+    - do you liek cheese?
+    - do you like football
+    - do you like movies
+    - do you sell vacuum robots?
+    - do you want to marry me?
+    - docs
+    - doctor
+    - everything
+    - example of a chatbot
+    - genocide
+    - get me a club mate
+    - give me a girl friend
+    - give me food
+    - go back
+    - google?
+    - great, I'd like to buy a house
+    - hang on let me find it
+    - have you ever seen Keith Reilly?
+    - help with Alma Abrams
+    - help with my life
+    - hey little mama let em whisper in your ear
+    - hey, I contacted you a couple of days ago but didn't get any response, any news?
+    - how
+    - how about NYC
+    - how are Alicia Jackson's cats doing?
+    - how are the kids
+    - how can i get them?
+    - how can i test this
+    - how come you say ok ?
+    - how do you learn
+    - how good is Rasa
+    - how it compares to alexa
+    - how long have you been online?
+    - how long will the next version will launch?
+    - how many lines of codes
+    - how much is 10 + 89 ?
+    - how much is 10 + 89
+    - how to get rasa studio
+    - how to go to newyork ?
+    - i am hungry
+    - i am hungry, what should i do?
+    - i am not a developer but need this for business
+    - i am qq
+    - i can't deal with _your_ request
+    - i do not care how are you
+    - i hope you will be better
+    - i immediately need help with implementing the coolest bot you can imagine
+    - i m looking for job
+    - i told you already
+    - i wanna party
+    - i want a non dripping ice cream
+    - i want caffe
+    - i want food
+    - i want good flycam
+    - i want more of you in my life!
+    - i want pizza
+    - i want pizza!!
+    - i want to book a hotel
+    - i want to buy a roomba for my grandson
+    - i want to eat
+    - i want to find new friends
+    - i want to find out what you can build with rasa
+    - i want to fly
+    - i want to grab lunch
+    - i want to know current situtation in pakistan
+    - i want to order a pizza
+    - i want to see your happy customers
+    - i will tame a mouse for you
+    - is John Lewis still married to you
+    - is it a wasteland full of broken robot parts?
+    - is it allow to
+    - is rasa a studio?
+    - is rasa any good
+    - is that any of your business
+    - isn't the newsletter just spam?
+    - it's a pity
+    - i´m hungry
+    - license
+    - ljljl
+    - lunch
+    - lunch??
+    - machine learning
+    - mail me the steps
+    - mascot means?
+    - more
+    - mountain
+    - my name k
+    - no wait go back i want a dripping ice cream but a cone that catches it so you can drink the ice cream later
+    - offer me lunch
+    - oh my god, not again!
+    - oh wait i gave you my work email address can i change it?
+    - ok one then
+    - on wiche nlp based system are you build?
+    - only that?
+    - order good
+    - order pizza
+    - personal or work?
+    - pizza
+    - please help with my ice cream it's dripping
+    - please hjave lunchj
+    - please hurry, i have deadline in two weeks to deliver the bot it is for very big company
+    - please play music
+    - rasa topics
+    - really? you're so touchy?
+    - refresh
+    - region with no. of records
+    - remember my name
+    - search wikipedia
+    - shitmuncher
+    - show me a picture of a chicken
+    - silly bot
+    - sing me a song
+    - so, I'm helping right now to training you?
+    - some thing else
+    - someone call the police i think the bot died
+    - sorry, i cannot rephrase
+    - sudo make me a sandwich
+    - tell me about yourself
+    - tell me more about next best action
+    - that doesn't sound like a joke
+    - that link doesn't work!
+    - the one that is better than you
+    - tricked  ya
+    - turn off my stove
+    - umm
+    - wait a bit i am still reading
+    - what about wheather
+    - what are contextual AI assistants and how different are they from chatbots?
+    - what are you doing now?
+    - what are your uses for universities
+    - what did you eat for lunch?
+    - what do oyu think about siri?
+    - what do you think abou siri?
+    - what do you think about Stanley Ramirez?
+    - what do you think of alexa
+    - what does your soul feel my friend
+    - what doing
+    - what else?
+    - what films do you like
+    - what i do after cd starter-pack-rasa-stack?
+    - what is a discourse?
+    - what is a mascot
+    - what is adlingo
+    - what is differance between bot and mascot?
+    - what is evolution ?
+    - what is google rcs
+    - what is machine learning
+    - what is nice?
+    - what is the capital of delhi
+    - what is the capital of india
+    - what is the current petrol price
+    - what is the day ?
+    - what is the real use case where we can use this one
+    - what is your address?
+    - what is your purpose
+    - what lnu mean?
+    - what the latest news ?
+    - what you ate today?
+    - what's 5 + 5
+    - what's a newsletter?
+    - what's gingerale
+    - what's your wife doing this weekend
+    - what?
+    - whats that
+    - whats the sign
+    - when is the next train is coming?
+    - where do i get install files for mac?
+    - where is Oslo?
+    - where is mexico?
+    - wheres the party?
+    - which city are you talking about?
+    - which email
+    - which email should i send to ?
+    - which file is created first while developing chat bot
+    - which is the LNU asynchronism ?
+    - which kind
+    - who are the engineers at rasa?
+    - who are they?
+    - who is [Sharon Zeches](name)
+    - who is the MD of samsung bangalore ?
+    - who is the president of india ?
+    - who is your favourite robot?
+    - who let the dog out
+    - who was hitler
+    - who will anser my email?
+    - who's Bill Gates?
+    - whta you think about gdpr?
+    - why do you need that?
+    - why its called rasa ?
+    - will u kill me
+    - will u kill me?
+    - winter is already leaving
+    - with you recommend me?
+    - would you like some water
+    - yeah, my dog was drinking a couple of litres of water per day and tried drinking the swimming pool
+    - you already have that
+    - you can learn how to make a coffe
+    - you have children?
+    - you have job opening
+    - you lock sweety
+    - you should learn to count
+    - you will know it from the single red rose it carries between its teeth
+    - you're a woman
+    - ı am learning python
+    - CALL THE POLICE
+    - tertyryutyi
+    - wsdrcftvgybhnj
+    - why sky is blue?
+    - what kind of bird are you?
+    - contextua
+    - contextual
+    - talk to me about voulette
+    - voulette voulette
+    - Do you have a demo?
+    - Cars
+    - please voulette
+    - Out of scope question.
+    - i need money
+    - no, i need cash, money! Do you have it ?
+    - the beatles
+    - Hi i want to go palghar
+    - I want to go palghar
+    - your contry name
+    - you girl
+    - gsaf
+    - expert of rasa
+    - i want play ball
+    - flight catch up
+    - how do you like your coffee
+    - Can you get analytics on who I'm chatting with when I use Rasa
+    - coronavirus
+    - have you heard of corona?
+    - where do i type in commandy
+    - where to type in commands
+    - kiss me
+    - you have to
+    - what type of bot?
+    - sfasd
+    - asdkjasdhjkasd
+    - j  bhbhj
+    - eshdtjfjfyk
+    - drhdtjfjfyj
+    - sudo reboot
+    - asdfgasd
+    - asdfgasdas
+
+
+- intent: overall_rating
+  examples: |
+    - overall_5
+    - overall_4
+    - overall_3
+    - overall_2
+    - overall_1
+   
+- intent: future_use_rating
+  examples: |
+    - future_use_5
+    - future_use_4
+    - future_use_3
+    - future_use_2
+    - future_use_1
+
+    
+- intent: preference_rating
+  examples: |
+    - preference_1
+    - preference_2
+    - preference_3
+    - preference_4
+    - preference_5
+   
+- intent: interaction_rating
+  examples: |
+    - interaction_1
+    - interaction_2
+    - interaction_3
+    - interaction_4
+    - interaction_5
+- intent: satisfy_rating
+  examples: |
+    - satisfy_1
+    - satisfy_2
+    - satisfy_3
+    - satisfy_4
+    - satisfy_5
+- intent: helpfulness_rating
+  examples: |
+    - helpfulness_1
+    - helpfulness_2
+    - helpfulness_3
+    
+- intent: bot_challenge
+  examples: |
+    - More about the chatbot
+    - More about you
+    - what can you help
+    - what kind of questions can you answer
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - I wanna leave now
+    - I wanna end the conversation
+    - end
+    - end the conversation
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - fine
+    - okay
+    - cool
+    - thank you
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: school_questions
+  examples: |
+    - Where can I access the application form?
+    - Where can I apply?
+    - Where can I get the application form?
+    - Give me the application form
+    - Where I can avail the application form?
+    - How can I apply?
+    - Can I get the application form?
+    - Tell me where to apply
+    - Application form
+    - How much is the application fee?
+    - What is the application fee?
+    - Tell me about the application fee
+    - Can I know the application fee?
+    - Application Fee
+    - How much I have to pay for the application fee?
+    - How much I need to pay for the application fee?
+    - Let me know about the application fee
+    - How much application fee I need to pay?
+    - How much application fee I have to pay?
+    - How much I have to pay as application fee?
+    - What are the ways to get the application fee reimbursed?
+    - Can the application fee get reimbursed?
+    - How to get application fee reimbursed?
+    - Application fee reimbursed
+    - Tell me how to reimburse the application fee
+    - Can I get my application fee reimbursed?
+    - How to reimburse the application fee?
+    - I want to get my application fee reimbursed
+    - Reimburse my application fee
+    - Get my application fee reimbursed
+    - Fee reimburse
+    - Is GRE/TOEFL/IELTS required?
+    - Is GRE required?
+    - IS TOEFL required?
+    - Is IELTS required?
+    - Is GRE/TOEFL/IELTS exam required?
+    - Is any exam required?
+    - Do I need to have GRE/TOEFL/IELTS score?
+    - Do I need to have GRE score?
+    - Do I need to have TOEFL score?
+    - Do I need to have IELTS score?
+    - GRE
+    - TOEFL
+    - IELTS
+    - What is the college ranking?
+    - What is the rank of the college?
+    - What is your rank?
+    - Tell me your rank
+    - Tell me your college ranking
+    - Can I know the college ranking?
+    - How good is the college in ranking?
+    - Is this a good college with respect to ranks?
+    - Ranking
+    - Rank
+    - How is the locality of the college?
+    - Is the locality of the college good?
+    - Tell me about locality of the college
+    - Locality of the college
+    - Locality
+    - What is there in the locality of the college?
+    - How good is the locality of the college?
+    - Give me the locality of the college
+    - What are the tourist attractions around the college?
+    - Is there any tourist attractions around the college?
+    - Tourist attractions
+    - Tell me about the tourist attractions around the college
+    - Is there any place for visiting for the tourist?
+    - Is the area good for tourist attractions?
+    - Give me any nearby tourist attractions
+    - What is the status of my application?
+    - Where can I know about my application status?
+    - Can I know my application status?
+    - What is my application status?
+    - How can I know about my application status?
+    - Tell me my application status
+    - Get me my application status
+    - application status
+    - When will I be notified of my acceptance?
+    - How I will be notified about my acceptance?
+    - How I will know about my acceptance?
+    - When I will know about my acceptance?
+    - Notify me about my acceptance
+    - Tell me how I be notified of my acceptance
+    - Application acceptance
+    - How to find a place to stay?
+    - How I can find a place to stay?
+    - Help me to find a place to stay
+    - Find me place to stay
+    - Tell me how to find a place to stay
+    - place to stay
+    - Where to stay?
+    - Tell me where I can stay
+    - Tell me where to stay
+    - Where can I stay?
+    - Where will I stay?
+    - Where I can stay?
+    - What is the typical cost for an apartment or a room?
+    - What is the cost for an apartment?
+    - What is the cost for a room?
+    - What is the cost of a room?
+    - What is the cost of an apartment?
+    - Cost of room
+    - Cost of apartment
+    - How does the transport work?
+    - What are available transport modes?
+    - Transport modes
+    - Transport methods
+    - Tell me how does transport work here
+    - What is scope of transportation?
+    - Which means of transport to use?
+    - What transportation should I use?
+    - What transport service should I use?
+    - What transportation can I use?
+    - What transportation I cam use?
+    - Tell me which transportation I can use
+    - Transport to use
+    - How do I get my student card?
+    - Where can I get student card?
+    - How can I get my student card?
+    - How can one get the student card?
+    - Tell me where can I get the student card
+    - Student card
+    - From where I can get my student card?
+    - How do I connect to the univeristy's network and Internet?
+    - How will I get the Internet?
+    - How can I get connected with univeristy's network?
+    - Internet
+    - University's network
+    - Is there any univeristy network and Internet?
+    - Tell me where I can get internet connection
+    - Where do students usually go for a lunch?
+    - Where can one have lunch?
+    - What are the lunch options?
+    - Lunch options
+    - Where can one take lunch?
+    - Tell me where can someone have lunch
+    - how's the student meal plan?
+    - where can I get some food?
+    - where can I get meals？
+    - How do I get a social security number (SSN)?
+    - Where can I get a social security number (SSN)?
+    - Where to get SSN?
+    - Tell me how can one get SSN?
+    - Where to get social security number?
+    - Tell me how can one get social security number?
+    - What is the procedure to get a social security number?
+    - Who to contact for housing questions?
+    - Where can I contact for housing issues?
+    - Tell me the contact of housing problems
+    - How can I get contact for housing questions?
+    - Contact for housing questions
+    - housing questions
+    - where do the students live on campus?
+    - how the student living?
+    - where is the student living?
+    - Who to contact for study questions?
+    - Where can I contact for study issues?
+    - Tell me the contact of study problems
+    - How can I get contact for study questions?
+    - Contact for study questions
+    - study questions
+    - Who can help me in study related issues?
+    - How do I get information about the courses?
+    - Where can someone know about the courses?
+    - Tell me about the courses
+    - How can one find out the courses
+    - What are the courses that the college offers?
+    - What are some of the courses?
+    - Information about courses
+    - Can I know about the courses?
+    - Courses
+    - Which bank is the best for students?
+    - What are the available banks?
+    - Is there any banking facility?
+    - Which bank can a student choose?
+    - Which bank will be suitable for me?
+    - Tell me about the banks present there?
+    - Tell me about banks
+    - Banks
+    - Is credit card must for students ?
+    - Is credit card required?
+    - Is credit card required for me?
+    - Is credit card mandatory for students?
+    - Do I need credit card?
+    - Tell me if credit card is required
+    - Credit card
+    - What is checking and savings account?
+    - What is checking account?
+    - What is savings account?
+    - Tell me about checking account
+    - Tell me about savings account
+    - Checking and savings account
+    - Checking account
+    - Ssvings account
+    - What social events take place?
+    - Tell me about social events
+    - Is there any social events?
+    - Social events
+    - Do any social events take place in the college?
+    - What are some of the social events?
+    - Can I join any social events?
+    - How social events take place?
+    - What are places students hang out?
+    - Tell me where to hang out
+    - Tell me some hang out place
+    - Where can one hang out?
+    - Where to hang out?
+    - Hnag out places
+    - Hang out
+    - Where students hang out in free time?
+    - Where to do Coronavirus testing or get a vaccine?
+    - Where to do Coronavirus testing?
+    - Where to get a vaccine?
+    - Coronavirus testing
+    - Coronavirus vaccine
+    - How can I do coronavirus testing?
+    - How can I get coro vaccine?
+    - Is there any coronavirus testing facility?
+    - What are the available on-campus jobs?
+    - Is there any on campus jobs?
+    - Which on campus jobs are available?
+    - How many on campus jobs are available?
+    - Is there any on campus jobs for students?
+    - Tell me what are the available on campus jobs
+    - available jobs
+    - available on campus jobs
+    - jobs
+    - How to get an on-campus job?
+    - How can I get an on campus job?
+    - How students can get an on campus job?
+    - Where will students get on campus job?
+    - How to get jobs?
+    - Get me an on campus job
+    - Tell me how can one get an on campus job?
+    - Get jobs
+    - I come from X branch. Can I apply for Y branch?
+    - I am from X branch. Can I apply for Y branch?
+    - If I am from X branch, can I apply for Y branch?
+    - Can a student of X branch apply for Y branch?
+    - Can I apply for Y branch if I come from X branch?
+    - Can I apply for Y branch? I come from X branch.
+    - Can I apply for Y branch? I am from X branch.
+    - Can I apply for Y branch, if I come from X branch?
+    - What is the deadline for undergraduate student applications?
+    - What is the deadline of undergraduate student applications?
+    - What is the last date of undergraduate student application?
+    - What is the last date for undergraduate student application?
+    - When can I last apply as undergraduate student?
+    - When I can last apply for undergraduate student courses?
+    - Tell me the deadline of undergraduate student applications
+    - Deadline of undergraduate courses
+    - What is the deadline for transfer student applications?
+    - What is the deadline of transfer student applications?
+    - What is the last date of transfer student application?
+    - What is the last date for transfer student application?
+    - When can I last apply as transfer student?
+    - When I can last apply for transfer student courses?
+    - Tell me the deadline of transfer student applications
+    - Deadline of transfer courses
+    - What are the requirements for international applicants?
+    - What are the required things for international applicants?
+    - What are the requirements for international students?
+    - What are the required things for international students?
+    - Tell me about the requirements for international students
+    - Tell me about the requirements of international students
+    - Tell me about the requirements for international applicants
+    - Tell me about the requirements of international applicants
+    - Can I know more about Assistantships/ Scholarships/ Fellowships?
+    - Can I know more about Assistantships?
+    - Can I know more about Scholarships?
+    - Can I know more about Fellowships?
+    - Can I know about Assistantships/ Scholarships/ Fellowships?
+    - Can I know about Assistantships?
+    - Can I know about Scholarships?
+    - Can I know about Fellowships?
+    - Tell me about Assistantships/ Scholarships/ Fellowships?
+    - Tell me about Assistantships?
+    - Tell me about Scholarships?
+    - Tell me about Fellowships?
+    - When will my department make a decision?
+    - When will my department review the application?
+    - When will my department take a decision?
+    - When will my department make a decision about the application?
+    - When will my department take a decision about the application?
+    - When will the department take any decision?
+    - After which time my department will take any decision?
+    - Has the graduate school received my application?
+    - Has my department received my application?
+    - Has the graduate school received the application?
+    - Has my department received the application?
+    - Can I know if the graduate school received my application?
+    - Can I know if my department received the application?
+    - Was my application received by the graduate school?
+    - Was my application received by my department?
+    - What is the situation regarding the coronavirus, COVID-19?
+    - What is the situation regarding the coronavirus?
+    - What is the situation regarding the COVID-19?
+    - How is the situation regarding the coronavirus, COVID-19?
+    - How is the situation regarding the coronavirus?
+    - How is the situation regarding the COVID-19?
+    - What is the current situation regarding the coronavirus, COVID-19?
+    - How do I get medical health services?
+    - How to get medical health services?
+    - How to get medical help?
+    - Tell me about medical services
+    - Tell me about health services
+    - How to avail health services?
+    - How to get medical services?
+    - How to avail medical services?
+    - Where can I find the form for X?
+    - How to get the form for X?
+    - How to get various forms?
+    - Where to get various forms?
+    - Can I get form for X?
+    - Tell me how to get form for X
+    - Tell me where I can find the form for X
+    - What places are there at the campus?
+    - What are there in the campus?
+    - Tell me about the buildings in campus
+    - What are the various buildings present in the campus?
+    - What are the places there in the campus?
+    - Tell me what are there in the campus
+    - What are the places to go in the campus?
+    - Is international driver's licence IDP valid in South Carolina?
+    - Is international driver's licence IDP valid in the univeristy?
+    - Is international driver's licence valid in South Carolina?
+    - Is the licence IDP valid in South Carolina?
+    - Is my international driver's licence IDP valid in South Carolina?
+    - Is my international driver's licence IDP valid in the univeristy?
+    - Is my international driver's licence valid in South Carolina?
+    - Is my the licence IDP valid in South Carolina?
+    - I am from country X. Is my driving license valid here?
+    - I come from X country. Is my driving license valid here?
+    - I am from X country. Is my driving license valid here?
+    - If I am from X country, is my driving license valid here?
+    - Is my driving license valid here? if I come from X country?
+    - Is my driving license valid here? I come from X country.
+    - Is my driving license valid here? I am from X country.
+    - What documents are required for applying for a car licence?
+    - What are the requirements for applying for a car licence?
+    - What are the required things for applying for a car licence?
+    - What are the requirements for applying for a car licence?
+    - What are the required documents for applying for a car licence?
+    - Tell me about the requirements for applying for a car licence?
+    - Tell me about the requirements of applying for a car licence?
+    - Tell me about the requirements for applying for a car licence?
+    - Tell me about the requirements of applying for a car licence?
+    - How to get a driver's licence?
+    - How can I get a driver's licence?
+    - How students can get a driver's licence?
+    - Where will students get a driver's licence?
+    - How to get a driver's licence?
+    - Get me a driver's licence
+    - Tell me how can one get a driver's licence?
+    - Get driver's licence
+    - How to order a taxi?
+    - How can I get a taxi?
+    - Where to get the taxi?
+    - Get me a taxi
+    - Tell me how to get a taxi
+    - How to find taxi in airport?
+    - Where can I get taxi?
+    - Where to find a taxi?
+        
+
