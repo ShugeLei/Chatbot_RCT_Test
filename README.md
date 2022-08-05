@@ -37,7 +37,7 @@ g0_chatbot
 1. screen -ls -> you will see list of all screens
 2. screen -r g0_chatbot -> Attach to the screen.
 3. Click ctrl-z to stop the running model
-4. Run the model (rasa run -m models --enable-api --cors "*" --endpoints endpoints.yml -p 5056)
+4. Run the model (rasa run -m models --enable-api --cors "*" --endpoints endpoints.yml -p 5063)
 4. Detach the screen -> ctrl + a + d
 
 actiong0
@@ -51,7 +51,7 @@ chatbot_g1
 1. screen -ls -> you will see list of all screens
 2. screen -r chatbot_g1 -> Attach to the screen.
 3. Click ctrl-z to stop the running model
-4. Run the model (rasa run -m models --enable-api --cors "*") (Running on default port)
+4. Run the model (rasa run -m models --enable-api --cors "*" --endpoints endpoints.yml -p 5062)
 5. Detach the screen -> ctrl + a + d
 
 
