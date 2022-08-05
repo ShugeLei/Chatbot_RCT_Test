@@ -6,7 +6,8 @@ pipeline:
 - name: RegexFeaturizer
 - name: LexicalSyntacticFeaturizer
 - name: CountVectorsFeaturizer
-  analyzer: char_wb
+- name: CountVectorsFeaturizer
+  analyzer: "char_wb"
   min_ngram: 1
   max_ngram: 4
 - name: DIETClassifier
@@ -17,11 +18,11 @@ pipeline:
   epochs: 100
   constrain_similarities: true
 - name: FallbackClassifier
-  threshold: 0.3
+  threshold: 0.3    
   ambiguity_threshold: 0.1
-- name: DucklingEntityExtractor
-  dimensions: ["email", "number"]
-  url: "https://duckling-server:5056"  ## 5061 works;
+#- name: DucklingEntityExtractor
+ # dimensions: ["email", "number"]
+  #url: "https://duckling-server:8000" 
 
 
 policies:
@@ -32,8 +33,8 @@ policies:
   constrain_similarities: true
 - name: RulePolicy
 
+
 action_endpoint:
-  #url: http://localhost:5057/webhook  --this used to work July28th, 2022
   url: http://casy.cse.sc.edu:5057/webhook 
 
 

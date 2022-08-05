@@ -3,12 +3,56 @@ version: "2.0"
 
 
 actions:
+- utter_access_application
+- utter_application_fee
+- utter_fee_reimbursed
+- utter_exam
+- utter_ranking
+- utter_locality
+- utter_tourist
+- utter_application_status
+- utter_application_acceptance
+- utter_find_place
+- utter_stay
+- utter_cost
+- utter_transport_mode
+- utter_transport_use
+- utter_student_card
+- utter_internet
+- utter_lunch
+- utter_ssn
+- utter_housing
+- utter_study
+- utter_courses
+- utter_bank
+- utter_credit_card
+- utter_account
+- utter_events
+- utter_hang_out
+- utter_corona_testing 
+- utter_available_jobs 
+- utter_get_jobs   
+- utter_branch
+- utter_deadline_ug
+- utter_deadline_transfer
+- utter_requirements 
+- utter_scholarships
+- utter_decision_department
+- utter_receive_application
+- utter_coronavirus
+- utter_health_services
+- utter_form_request 
+- utter_campus 
+- utter_international_drivers_licence
+- utter_foreign_licence
+- utter_applying_licence
+- utter_driving_test
+- utter_airport_transfer  
 - utter_current_student  #
 - utter_gender       #
 - utter_age  #
 - utter_marriage   #
 - utter_education #
-- utter_please_rephrase
 - utter_ask_short_feedback
 - utter_ask_ratings
 - utter_greet
@@ -28,6 +72,8 @@ actions:
 - utter_prefinish_2
 - utter_out_of_scope
 - action_save_conversation
+- utter_please_rephrase
+- action_session_id
 
 
 intents:
@@ -186,7 +232,7 @@ responses:
   utter_prefinish_1:
   - text: "Thanks, that's all for the feedbacks. The last part is regarding your demographic information."
   utter_prefinish_2:
-  - text: "Thanks for your participation and feedbacks. This is all about the experiment.\n [Conversation ends.]"
+  - text: "Thanks for your participation and feedbacks. This is all about the experiment.【Conversation ended】"
   
   utter_goodbye:
   - text: "Bye"

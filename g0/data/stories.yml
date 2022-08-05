@@ -36,6 +36,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
  
 - story: application path 2
@@ -64,6 +65,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
   
  
@@ -101,6 +103,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 - story: application fee path 2
@@ -129,6 +132,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -166,6 +170,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -195,6 +200,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 - story: exam path 1
@@ -231,6 +237,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -260,6 +267,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 - story: ranking path 1
@@ -296,6 +304,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -325,6 +334,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 - story: locality path 1
@@ -361,6 +371,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -390,6 +401,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 - story: tourist path 1
@@ -426,6 +438,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 - story: tourist path 2
@@ -454,6 +467,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 - story: application status path 1
@@ -490,6 +504,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -519,6 +534,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -556,6 +572,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -585,6 +602,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -623,6 +641,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -652,6 +671,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -689,6 +709,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -718,6 +739,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -755,6 +777,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -784,6 +807,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -822,6 +846,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -851,6 +876,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -889,6 +915,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -918,6 +945,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -956,6 +984,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -985,6 +1014,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -1022,6 +1052,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -1051,6 +1082,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -1088,6 +1120,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
  
 
@@ -1117,6 +1150,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
   
 - story: ssn path 1
@@ -1153,6 +1187,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -1182,6 +1217,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
   
   
@@ -1219,6 +1255,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
  
  
@@ -1248,6 +1285,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
   
 - story: study path 1
@@ -1284,6 +1322,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 - story: study path 2
@@ -1312,6 +1351,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -1349,6 +1389,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 - story: courses path 2
@@ -1377,6 +1418,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -1414,6 +1456,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -1443,6 +1486,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -1481,6 +1525,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
  
 
@@ -1510,6 +1555,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
  
  
@@ -1547,6 +1593,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -1576,6 +1623,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -1613,6 +1661,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -1642,6 +1691,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -1679,6 +1729,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
   
 
@@ -1708,6 +1759,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -1745,6 +1797,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -1774,6 +1827,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 - story: corona testing path 1
@@ -1810,6 +1864,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -1839,6 +1894,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -1876,6 +1932,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -1905,6 +1962,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 - story: get jobs path 1
@@ -1941,6 +1999,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -1970,6 +2029,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
   
   
@@ -2007,6 +2067,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2036,6 +2097,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2073,6 +2135,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2102,6 +2165,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 - story: deadline transfer path 1
@@ -2138,6 +2202,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2167,6 +2232,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2204,6 +2270,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2233,6 +2300,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2270,6 +2338,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2299,6 +2368,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2336,6 +2406,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2365,6 +2436,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 - story: receive application path 1
@@ -2401,6 +2473,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2430,6 +2503,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2467,6 +2541,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 - story: coronavirus path 2
@@ -2495,6 +2570,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2532,6 +2608,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
  
 
@@ -2561,6 +2638,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
  
 - story: form request path 1
@@ -2597,6 +2675,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2626,6 +2705,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2663,6 +2743,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2692,6 +2773,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 - story: international drivers licence path 1
@@ -2728,6 +2810,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2757,6 +2840,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2794,6 +2878,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2823,6 +2908,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2860,6 +2946,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2889,6 +2976,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 - story: driving test path 1
@@ -2925,6 +3013,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2954,6 +3043,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
 
 
@@ -2991,6 +3081,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
   
 
@@ -3020,4 +3111,5 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation

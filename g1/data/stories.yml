@@ -36,6 +36,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
   
 - story: happy path 2
@@ -64,6 +65,7 @@ stories:
   - action: utter_education #
   - intent: answer_education #
   - action: utter_prefinish_2
+  - action: action_session_id
   - action: action_save_conversation
   
   

@@ -875,7 +875,7 @@ nlu:
     - Tell me about Scholarships?
     - Tell me about Fellowships?
 - intent: decision_department
-  examples: |    
+  examples: |
     - When will my department make a decision?
     - When will my department review the application?
     - When will my department take a decision?

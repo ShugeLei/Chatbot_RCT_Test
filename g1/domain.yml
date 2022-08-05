@@ -30,6 +30,7 @@ actions:
 - utter_prefinish_2
 - utter_out_of_scope
 - action_save_conversation
+- action_session_id
 
   
 
@@ -146,7 +147,7 @@ responses:
   utter_prefinish_1:
   - text: "Thanks, that's all for the feedbacks. The last part is regarding your demographic information."
   utter_prefinish_2:
-  - text: "Thanks for your participation and feedbacks. This is all about the experiment.\n [Conversation ends.]"
+  - text: "Thanks for your participation and feedbacks. This is all about the experiment.【Conversation ended】"
   utter_goodbye:
   - text: "Bye"
   utter_answers_satisfaction:
@@ -219,7 +220,7 @@ responses:
   utter_sorry:
   - text: "Sorry to hear this"
   utter_school_pdf:
-  - text: "Please refer to the FAQ here for answer -  https://drive.google.com/file/d/1bjpTNPy11cH-OCCeXjdwwAhSilXm7Aj4/view?usp=sharing"
+  - text: "Please refer to the FAQ here for answer - https://drive.google.com/file/d/1Ptasa5AuLKAz9s19Pg-SiQlAXiae1LfE/view?usp=sharing"
     
 session_config:
   session_expiration_time: 60
