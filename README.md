@@ -2,10 +2,7 @@
 
 ## Steps to Run the chatbot on the Casy server:- 
 1. connect to the Casy Server: 
-   1.1 if on the school internet, use the command line:
-         ssh -p222 student-user@casy.cse.sc.edu 
-         PWD: passw0rd!
-         then go to the directory: demos/chatbot_univ/
+   1.1 if on the school internet
    1.2 if not on the school internet, use Cisco AnyConnect VPN(or other VPN) first, then follow the same step as 1.1. 
 2. run chatbots:
     2.1 we need four terminal windows to run two chatbots and two custom actions seperately; all the terminals need to follow step 1 to connect to the server first；
